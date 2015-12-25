@@ -1,5 +1,13 @@
 var myControllers = angular.module('myControllers', []);
 
+myControllers.controller('NavCtrl', ['$scope', '$location',
+  function($scope, $location) {
+    $scope.isActive = function (viewLocation) { 
+      return viewLocation === $location.path();
+    };
+  }
+]);
+
 myControllers.controller('HomeCtrl', ['$scope',
   function($scope) {
   
