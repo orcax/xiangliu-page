@@ -1,5 +1,37 @@
-var liusApp = angular.module('liusApp', []);
+var myControllers = angular.module('myControllers', []);
 
-liusApp.controller('IndexCtrl', function($scope) {
+myControllers.controller('HomeCtrl', ['$scope',
+  function($scope) {
+  
+  }
+]);
 
-});
+myControllers.controller('PublicationCtrl', ['$scope',
+  function($scope) {
+  
+  }
+]);
+
+myControllers.controller('ResearchCtrl', ['$scope',
+  function($scope) {
+  
+  }
+]);
+
+myControllers.controller('TeachCtrl', ['$scope',
+  function($scope) {
+  
+  }
+]);
+
+myControllers.controller('StudentCtrl', ['$scope',
+  function($scope) {
+  
+  }
+]);
+
+myControllers.controller('MaterialCtrl', ['$scope',
+  function($scope) {
+  
+  }
+]);
