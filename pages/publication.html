@@ -1,1 +1,22 @@
-<h1>Pulications</h1>
+<h1 class="title-first">Pulications</h1>
+
+<h2>Journal Papers</h2>
+<ol>
+  <li ng-repeat="j in journals">
+  <p>{{j.author}} <a href="{{j.link}}">{{j.title}}</a> {{j.source}}</p>
+  </li>
+</ol>
+
+<h2>Magzine Articles</h2>
+<ol>
+  <li ng-repeat="m in magzines">
+  <p>{{m.author}} <a href="{{m.link}}">{{m.title}}</a> {{m.source}}</p>
+  </li>
+</ol>
+
+<h2>Conference Papers</h2>
+<ol>
+  <li ng-repeat="c in conferences">
+  <p>{{c.author}} {{c.title}} {{c.source}}</p>
+  </li>
+</ol>
