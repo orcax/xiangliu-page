@@ -30,22 +30,31 @@ myControllers.controller('PublicationCtrl', ['$scope', '$http',
   }
 ]);
 
-myControllers.controller('ResearchCtrl', ['$scope',
+myControllers.controller('ResearchCtrl', ['$scope', '$http',
   function($scope, $http) {
+    $http.get('data/project.json').success(function(data) {
+      $scope.projects = data;
+    });
   }
 ]);
 
-myControllers.controller('TeachCtrl', ['$scope',
+myControllers.controller('TeachCtrl', ['$scope', '$http',
   function($scope, $http) {
+    $http.get('data/course.json').success(function(data) {
+      $scope.courses = data;
+    });
   }
 ]);
 
-myControllers.controller('StudentCtrl', ['$scope',
+myControllers.controller('StudentCtrl', ['$scope', '$http',
   function($scope, $http) {
+    $http.get('data/member.json').success(function(data) {
+      $scope.members = data;
+    });
   }
 ]);
 
-myControllers.controller('MaterialCtrl', ['$scope',
+myControllers.controller('MaterialCtrl', ['$scope', '$http',
   function($scope, $http) {
   }
 ]);

@@ -1,0 +1,151 @@
+[
+  {
+    "name": "Kang Zhou",
+    "intro": "Kang is a Ph.D. student in Civil Engineering at Rutgers University. His research lies in risk management of hazardous materials transportation. He received his M.S. in Traffic Information Engineering and Control from Dalian Maritime University and stayed there as a lecturer for over two years. He was a visiting scholar at National University of Singapore (NUS) from 2014 to 2015.",
+    "avatar": "kangzhou.jpg",
+    "publication": [
+      {
+        "author": "Zhou, K., Chen.J.H., Liu, X. (2016).",
+        "title": "Risk-based ship collision-avoidance maneuvers accounting for optimal bunker consumption.",
+        "link": "http://media.wix.com/ugd/94b705_cbe4a187d9234a2799a7af5c61368720.pdf",
+        "source": "TRB Annual Meeting."
+      }
+    ],
+    "honor": []
+  },
+  {
+    "name": "Zheyong Bian",
+    "intro": "Zheyong is a Ph.D. student in Civil Engineering at Rutgers University. His research focuses on operations research, logistics optimization and freight transportation. He received a B.S. and M.S., both in Industrial Engineering, from Tianjin University, China.",
+    "avatar": "zheyongbian.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Masoud Imaniboossejin",
+    "intro": "Masoud is a pursuing his M.S. with a research fellowship. His research addresses transportation safety and risk management. He is currently working on a project related to roadway transportation safety. Masoud received his B.S. degree in Civil Engineering from Sharif University of Technology in Iran, 2015.",
+    "avatar": "masoud.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Can Hu",
+    "intro": "Can is a M.S student in Statistics at Rutgers University. His current work focuses on big data analytics of track degradation and data-driven infrastructure risk management. He was recently funded by the National Science Foundation (NSF) to present his railroad research at the 2015 NSF Data Science Workshop in Seattle, WA. Can receives his B.S. from Zhejiang University, China, in mathematical statistics.",
+    "avatar": "canhu.jpg",
+    "publication": [
+      {
+        "author": "Hu, C., Liu, X. (2016).",
+        "title": "Modeling track geometry degradation using data mining techniques.",
+        "link": "#",
+        "source": "Joint Rail Conference, South Carolina (under review)."
+      }
+    ],
+    "honor": [
+      "National Science Foundation Travel Grant on Data Science Workshop, 2015" 
+    ]
+  },
+  {
+    "name": "Christian Higgins",
+    "intro": "Christian is a M.S. student in City and Regional Planning at Rutgers University.  He has worked on a methodological framework for truck parking development. His current research focuses on railroad infrastructure risk management and safety policy. He has a B.S. in Urban Planning from Cornell University where he additionally conducted rural public transit planning and policy analysis with a local metropolitan planning organization.",
+    "avatar": "christian.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Liwei Wang",
+    "intro": "Liwei Wang is pursuing a Ph.D. in Statistical Sciences at Rutgers University. Her current work addresses probabilistic modeling of broken rails. She received a M.S. in Mathematics from the University of South Carolina and a B.S. in Mathematics from Shandong University, China.",
+    "avatar": "liweiwang.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Ling Ma",
+    "intro": "Ling Ma is a M.S student in Statistics at Rutgers University. She is currently working on statistical modeling of railroad infrastructure degradation. She received M.S. degree and B.S. in Pharmaceutics at Peking University, China.",
+    "avatar": "lingma.jpg",
+    "publication": [
+      {
+        "author": "Ma, L., Ma,X.X., Liu, X. (2016).",
+        "title": "Spatial analysis of freight-train derailments in the United States.",
+        "link": "#",
+        "source": "Joint Rail Conference, South Carolina (under review)."
+      }
+    ],
+    "honor": []
+  },
+  {
+    "name": "Yanlei Wang",
+    "intro": "Yanlei is pursuing a M.S.  degree in Statistics at Rutgers University. She is currently assisting in statistical analysis of train derailments. She received her B.S. in Psychology and B.E. in Industrial Design from Zhejiang University, China.",
+    "avatar": "yanleiwang.jpg",
+    "publication": [
+      {
+        "author": "Wang, Y.L., Xu, S., Liu, X. (2016).",
+        "title": "Collision risk analysis of freight trains in the United States.",
+        "link": "#",
+        "source": "Joint Rail Conference, Columbia, South Carolina (under review)."
+      }
+    ],
+    "honor": []
+  },
+  {
+    "name": "Tal Ben-Gera",
+    "intro": "Tal is a senior undergraduate majoring in Structural Engineering at Rutgers University. He is conducting research on broken rail risk analysis. Upon graduation, Tal plans to pursue his masters degree in Strucutral Engineering in Europe.",
+    "avatar": "tal.png",
+    "publication": [
+      {
+        "author": "Ben-Gera, T., He, J.B., Liu, X. (2016).",
+        "title": "Broken rail caused derailment risk analysis.",
+        "link": "#",
+        "source": "Joint Rail Conference, Columbia, South Carolina (under review)."
+      }
+    ],
+    "honor": []
+  },
+  {
+    "name": "Jiabo (Chris) He",
+    "intro": "Chris is a senior undergraduate at Rutgers University, majoring in Mathematics & Statistics with a minor in Business Administration. He is working on track geometry risk analysis. He was an intern data analyst at Columbia University Medical Center in the summer of 2015.",
+    "avatar": "jiabohe.jpg",
+    "publication": [
+      {
+        "author": "He, J.B., Ben-Gera, T., Liu, X. (2016).",
+        "title": "Track geometry caused derailment risk analysis.",
+        "link": "#",
+        "source": "Joint Rail Conference, Columbia, South Carolina (under review)."
+      }
+    ],
+    "honor": []
+  },
+  {
+    "name": "Yikun Xian",
+    "intro": "Yikun Xian is a M.S. student in Computer Science at Rutgers University. His research interest lies in artificial intelligence and its applications to practical problems. He currently works on web application development and data analysis projects. Yikun received his B.E. in Software Engineering from Tongji University, China.",
+    "avatar": "yikunxian.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Shuang Xu (former member)",
+    "intro": "Shuang is a M.S. student in Statistics at Rutgers University. She is working on train accident analysis and prevention. She was an intern statistian at Sanofi-Aventis in the summer of 2015.",
+    "avatar": "shuangxu.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Xiaoxi Ma (former member)",
+    "intro": "Xiaoxi received a M.S. in Statistics from Rutgers University in 2015. She has worked on spatial statistical analysis of railroad accidents. She was an intern statistian in Covance Inc in 2014. Xiaoxi is currently a data scientist at Optimal Strategix Group.",
+    "avatar": "xiaoxima.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Yubo Qin (former member)",
+    "intro": "Yubo is a M.S. student in the Department of Electrical and Computer Engineering at Rutgers University. He was instrumental in development of several railroad computer tools since 2014. He received his BS in Automation from University of Electronic Science and Technology of China.",
+    "avatar": "yuboqin.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Xiangyi (Meredith) Guo (former member)",
+    "intro": "Meredith recently received her M.S. in Statistics from Rutgers University. She participated in studies related to railroad safety and risk analysis. In addition to a M.S. in Statistics, she also has a M.S. degree in Cell and Developmental Biology from Rutgers University.",
+    "avatar": "xiangyiguo.jpg",
+    "publication": [],
+    "honor": []
+  }
+]

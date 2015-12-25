@@ -1,1 +1,7 @@
-<h1>Teaching</h1>
+<h1 class="title-first">Teaching</h1>
+
+<div ng-repeat="c in courses">
+  <h3>{{c.title}}</h3>
+  <p>{{c.content}}</p>
+  <img ng-src="img/{{c.figure}}" class="img-responsive" alt="{{c.title}}">
+</div>
