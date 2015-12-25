@@ -20,7 +20,7 @@ body {
 
 .navbar {
   min-height: 40px !important;
-  margin: auto;
+  margin: 0 auto;
 }
 
 .nav>li>a {
@@ -36,3 +36,45 @@ body {
   height: 360px;
 }
 
+.namecard {
+  margin: 60px auto 0 auto;
+  padding-top: 8px;
+  width: 632px;
+  height: 218px;
+  background-color: rgba(219, 91, 67, 1);
+  position: relative;
+}
+
+.namecard h1 {
+  text-align: center;
+  color: white;
+  font-size: 50px;
+  letter-spacing: 0.1em;
+}
+
+.namecard p {
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  letter-spacing: 0.1em;
+  margin: 4px auto;
+}
+
+.namecard .dbline {
+  border-top: 2px solid rgba(244, 176, 164, 1);
+  border-bottom: 2px solid rgba(244, 176, 164, 1);
+  padding: 3px 0 0 0;
+  width: 120px;
+}
+
+.namecard .lline {
+  top: 105px;
+  left: 55px;
+  position: absolute;
+}
+
+.namecard .rline {
+  top: 105px;
+  right: 55px;
+  position: absolute;
+}
