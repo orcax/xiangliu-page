@@ -8,10 +8,12 @@ myControllers.controller('NavCtrl', ['$scope', '$location',
   }
 ]);
 
-myControllers.controller('HomeCtrl', ['$scope',
-  function($scope) {
-  }
-]);
+myControllers.controller('HomeCtrl', function($scope, $http) {
+  $http.get('data/home.json').success(function(data) {
+    console.log(data);
+    $scope.interests = data;
+  });
+});
 
 myControllers.controller('PublicationCtrl', ['$scope',
   function($scope) {
