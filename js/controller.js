@@ -51,6 +51,9 @@ myControllers.controller('StudentCtrl', ['$scope', '$http',
     $http.get('data/member.json').success(function(data) {
       $scope.members = data;
     });
+    $http.get('data/event.json').success(function(data) {
+      $scope.events = data;
+    });
   }
 ]);
 

@@ -3,7 +3,7 @@
     <h1 class="title-first">Group Members</h1>
     <div class="row" ng-repeat="m in members">
       <div class="col-md-3">
-        <img src="img/{{m.avatar}}" class="img-responsive" alt="{{m.name}}">
+        <img ng-src="img/{{m.avatar}}" class="img-responsive" alt="{{m.name}}">
       </div>
       <div class="col-md-9">
         <h3>{{m.name}}</h3>
@@ -19,5 +19,39 @@
   </div>
   <div class="col-md-4">
     <h1 class="title-first">Events</h1>
+    <div ng-repeat="e in events">
+      <img ng-src="img/{{e.figure}}" class="img-responsive" ng-if="e.figure.length > 0">
+      <h3>{{e.title}}</h3>
+      <p>{{e.content}}</p>
+    </div>
   </div>
 </div>
+
+<h1 class="title">Graduate Assistantship Opportunities</h1>
+<p>We encourage and welcome the best talents to join us as graduate research assistants for M.S. or Ph.D. degrees, contributing to high-impact research, including but not limited to: intermodal freight, logistics systems analysis, transportation safety (rail, highway and maritime), network modeling and infrastructure management.</p>
+<h3>Qualifications</h3>
+<ul>
+  <li>Major in Transportation Engineering, Civil Engineering, Industrial Engineering, Statistics, Mathematics, Computer Science or related areas</li>
+  <li>Experience in probability, statistics, operations research, optimization or computer programming is preferred but not required</li>
+</ul>
+<ul>
+  <li>Full tuition waiver, full stipend and other related university benefits</li>
+  <li>Opportunities to work with faculty in the CEE and national transportation research center (CAIT) at Rutgers, on high-profile projects funded by government and private agencies</li>
+  <li>Financial support to attend conferences to present research and interact with global researchers and industry professionals</li>
+  <li>Career opportunities in research institutions, logistics companies and consulting firms</li>
+</ul>
+<h3>Application Guidelines and Deadlines</h3>
+<ul>
+  <li>Detailed application information can be found at <a href="http://gradstudy.rutgers.edu/apply/overview">http://gradstudy.rutgers.edu/apply/overview</a></li>
+  <li>Required application materiaials</li>
+  <ul>
+    <li>Transcript, CV, personal statement, 3 recommendation letters</li>
+    <li>TOEFL and GRE test scores</li>
+  </ul>
+  <li>Application deadlines</li>
+  <ul>
+    <li>Master Degree: <a href="https://grad.admissions.rutgers.edu/GraduateProgram/Detail.aspx?code=16180&degree=MS">https://grad.admissions.rutgers.edu/GraduateProgram/Detail.aspx?code=16180&amp;degree=MS</a></li>
+    <li>Ph.D. Degree: <a href="https://grad.admissions.rutgers.edu/GraduateProgram/Detail.aspx?code=16180&degree=PHD">https://grad.admissions.rutgers.edu/GraduateProgram/Detail.aspx?code=16180&amp;degree=PHD</a></li>
+  </ul>
+</ul>
+<p>The interested applicant may contact Professor Xiang Liu via email (xiang.liu@rutgers.edu), attaching his/her CV and transcript. However, the final decision will not be made until the applicant completes official application process through Rutgers University.</p>
