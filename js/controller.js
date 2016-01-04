@@ -1,4 +1,4 @@
-var myControllers = angular.module('myControllers', []);
+var myControllers = angular.module('myControllers', ['ngSanitize']);
 
 myControllers.controller('NavCtrl', ['$scope', '$location',
   function($scope, $location) {
