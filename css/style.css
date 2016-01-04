@@ -115,6 +115,10 @@ body {
   margin-bottom: 35px;
 }
 
+.vspace-3 {
+  margin-top: 6px;
+}
+
 .font-bold {
   font-weight: bold;
 }
