@@ -105,9 +105,14 @@ body {
   color: #db5b43;
 }
 
-.row {
+.vspace-1 {
   margin-top: 15px;
-  margin-bottom: 15px;
+  margin-bottom: 25px;
+}
+
+.vspace-2 {
+  margin-top: 20px;
+  margin-bottom: 35px;
 }
 
 .font-bold {
@@ -117,4 +122,15 @@ body {
 .font-style-1 {
   font-style: italic;
   color: #437058;
+}
+
+.font-style-2 {
+  margin-top: 0;
+  font-size: 22px;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.border-1 {
+  border: 1px solid #808080;
 }

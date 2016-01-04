@@ -16,12 +16,12 @@
 </ul>
 
 <h1 class="title">Projects</h1>
-<div class="row" ng-repeat="p in projects">
+<div class="row vspace-2" ng-repeat="p in projects">
   <div class="col-md-6">
-    <img ng-src="img/{{p.figure}}" class="img-responsive" alt="{{p.title}}">
+    <img ng-src="img/{{p.figure}}" class="img-responsive border-1" alt="{{p.title}}">
   </div>
   <div class="col-md-6">
-    <h3>{{p.title}}</h3>
+    <p class="font-style-2">{{p.title}}</p>
     <p>{{p.content}}</p>
     <a class="btn btn-primary" href="{{p.link}}" ng-if="p.link.length > 0">Demo</a>
   </div>
