@@ -21,7 +21,7 @@ myControllers.controller('PublicationCtrl', ['$scope', '$http',
     $http.get('data/journal.json').success(function(data) {
       $scope.journals = data;
     });
-    $http.get('data/magzine.json').success(function(data) {
+    $http.get('data/magazine.json').success(function(data) {
       $scope.magzines = data;
     });
     $http.get('data/conference.json').success(function(data) {

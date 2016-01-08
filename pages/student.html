@@ -10,7 +10,7 @@
         <p>{{m.intro}}</p>
         <p ng-if="m.publication.length > 0">Publication:</p>
         <p ng-repeat="p in m.publication">
-          {{p.author}} <a href="{{p.link}}">{{p.title}}</a> {{p.source}}
+          {{p.author}} <a href="files/{{p.link}}">{{p.title}}</a> {{p.source}}
         </p>
         <p ng-if="m.honor.length > 0">Award/Honor:</p>
         <p ng-repeat="h in m.honor">{{h}}</p>
