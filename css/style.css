@@ -113,6 +113,11 @@ a:hover {
   color: #db5b43;
 }
 
+.link-color {
+  color: #af0000;
+}
+
+
 .vspace-1 {
   margin-top: 15px;
   margin-bottom: 25px;

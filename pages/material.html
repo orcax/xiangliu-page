@@ -1,6 +1,10 @@
-<h1>
-  <a href="files/writing-research-reports.pdf">How to write an academic article (click to download)</a>
+<div ng-repeat="m in materials">
+<h1 class="link-color">
+  <div ng-if="m.link.length > 0">
+    <a href="files/{{m.link}}">{{m.title}}</a>
+    <span class="glyphicon glyphicon-paperclip" aria-hidden="true" style="font-size:20px;"></span>
+  </div>
+  <span ng-if="m.link.length <= 0">{{m.title}}</span>
 </h1>
-<p>Many of my students expressed their interest to improve their skills for writing English academic articles. The short tutorial here was developed to help them get started. The materials were drafted by my colleague Mr. David Jones from the Department of English at Rutgers University.</p>
-
-
+  <p ng-bind-html="m.content"></p>
+</div>

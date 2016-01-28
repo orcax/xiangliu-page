@@ -59,5 +59,8 @@ myControllers.controller('StudentCtrl', ['$scope', '$http',
 
 myControllers.controller('MaterialCtrl', ['$scope', '$http',
   function($scope, $http) {
+    $http.get('data/material.json').success(function(data) {
+      $scope.materials = data;
+    });
   }
 ]);
