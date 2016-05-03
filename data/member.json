@@ -34,13 +34,14 @@
     "publication": [
       {
         "author": "Hu, C., Liu, X. (2016).",
-        "title": "Modeling track geometry degradation using data mining techniques.",
-        "link": "",
-        "source": "Joint Rail Conference, South Carolina (under review)."
+        "title": "Modeling track geometry degradation using support vector machine technique.",
+        "link": "canhu1.pdf",
+        "source": "Joint Rail Conference, Columbia, South Carolina."
       }
     ],
     "honor": [
-      "National Science Foundation Travel Grant on Data Science Workshop, 2015" 
+      "National Science Foundation Travel Grant on Data Science Workshop, 2015",
+	  "ASME JRC Graduate Student Scholarship"
     ]
   },
   {
@@ -61,15 +62,10 @@
     "name": "Ling Ma",
     "intro": "Ling Ma is a M.S student in Statistics at Rutgers University. She is currently working on statistical modeling of railroad infrastructure degradation. She received M.S. degree and B.S. in Pharmaceutics at Peking University, China.",
     "avatar": "lingma.jpg",
-    "publication": [
-      {
-        "author": "Ma, L., Ma,X.X., Liu, X. (2016).",
-        "title": "Spatial analysis of freight-train derailments in the United States.",
-        "link": "",
-        "source": "Joint Rail Conference, South Carolina (under review)."
-      }
-    ],
-    "honor": []
+    "publication": [],
+    "honor": [ 
+	"ASME JRC Graduate Student Scholarship"
+	]
   },
   {
     "name": "Yanlei Wang",
@@ -78,11 +74,48 @@
     "publication": [
       {
         "author": "Wang, Y.L., Xu, S., Liu, X. (2016).",
-        "title": "Collision risk analysis of freight trains in the United States.",
-        "link": "",
-        "source": "Joint Rail Conference, Columbia, South Carolina (under review)."
+        "title": "Risk analysis of freight train collisions in the United States, 2000-2014.",
+        "link": "yanleiwang1.pdf",
+        "source": "Joint Rail Conference, Columbia, South Carolina."
       }
     ],
+    "honor": [
+	"ASME JRC Graduate Student Scholarship"
+	]
+  },
+   {
+    "name": "Hayley Todd",
+    "intro": "Hayley is pursuing an M.S. in City and Regional Planning at Rutgers University. She is currently assisting with transportation infrastructure asset management research. She received a B.A. in Geography from the University of Mary Washington in Virginia.",
+    "avatar": "hayley.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Brian Leckie",
+    "intro": "Brian is a M.S. student in City and Regional Planning at Rutgers University. He is currently working on a methodology report concerning broken rail risk analysis. He received a B.A. in Urban Studies from the University of Pittsburgh in 2013. In 2012, he completed a summer internship in transportation planning near Washington, D.C., where he worked on coding for a travel demand model.",
+    "avatar": "brian.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Jiayue Ding",
+    "intro": "Jiayue is a M.S student in Statistics at Rutgers University. She recently joined Dr. Liu’s research team and currently working on transportation and mobility needs and barriers of adults on the autism spectrum data analysis. She received her B.A. in Actuarial Science from University of Connecticut.",
+    "avatar": "dingjiayue.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Chang Liu",
+    "intro": "Chang Liu is a master student in Statistics at Rutgers University. She is currently assisting in statistical analysis in data set of train derailments. She received her B.S. Information and Computing Sciences and M.S. in Computational Mathematics from Fudan University, China.",
+    "avatar": "liuchang.jpg",
+    "publication": [],
+    "honor": []
+  },
+  {
+    "name": "Daniel Rodriguez",
+    "intro": "Daniel is a first year undergraduate student pursuing a B.S. in Urban Planning and Design and a B.A. in Economics at Rutgers University. As an undergraduate student, he has a strong interest in community development, economic development, and transportation planning and how they interrelate. Most recently, he has conducted research under the Collaborative Center of Rutgers University regarding the characteristics and effectiveness of youth programs in the City of New Brunswick. Currently, he is on a team working on railroad infrastructure risk management research.",
+    "avatar": "daniel.jpeg",
+    "publication": [],
     "honor": []
   },
   {
@@ -92,9 +125,9 @@
     "publication": [
       {
         "author": "Ben-Gera, T., He, J.B., Liu, X. (2016).",
-        "title": "Broken rail caused derailment risk analysis.",
-        "link": "",
-        "source": "Joint Rail Conference, Columbia, South Carolina (under review)."
+        "title": "A preliminary methodology for broken rail caused freight train derailment risk analysis.",
+        "link": "talbengera1.pdf",
+        "source": "Joint Rail Conference, Columbia, South Carolina."
       }
     ],
     "honor": []
@@ -106,9 +139,9 @@
     "publication": [
       {
         "author": "He, J.B., Ben-Gera, T., Liu, X. (2016).",
-        "title": "Track geometry caused derailment risk analysis.",
-        "link": "",
-        "source": "Joint Rail Conference, Columbia, South Carolina (under review)."
+        "title": "Risk analysis of freight-train derailment caused by track geometry defect.",
+        "link": "jianbohe1.pdf",
+        "source": "Joint Rail Conference, Columbia, South Carolina."
       }
     ],
     "honor": []
@@ -121,31 +154,42 @@
     "honor": []
   },
   {
-    "name": "Shuang Xu (former member)",
-    "intro": "Shuang is a M.S. student in Statistics at Rutgers University. She is working on train accident analysis and prevention. She was an intern statistian at Sanofi-Aventis in the summer of 2015.",
-    "avatar": "shuangxu.jpg",
+    "name": "Katherine Chen",
+    "intro": "Katherine is an undergraduate student studying Civil Engineering at Rutgers University. Her interests include structural, transportation, and geotechnical engineering. She hopes to explore these fields over the next few years.",
+    "avatar": "katherinechen.jpg",
     "publication": [],
     "honor": []
   },
   {
-    "name": "Xiaoxi Ma (former member)",
+    "name": "Shuang Xu",
+    "intro": "Shuang is a M.S. student in Statistics at Rutgers University. She is working on train accident analysis and prevention. She was an intern statistian at Sanofi-Aventis in the summer of 2015. <br> Shuang Xu is currently a Data Analyst at Sanofi-Aventis in Bridgewater, New Jersey.",
+    "avatar": "shuangxu.jpg",
+    "publication": [],
+    "honor": [],
+    "alumni": true
+  },
+  {
+    "name": "Xiaoxi Ma",
     "intro": "Xiaoxi received a M.S. in Statistics from Rutgers University in 2015. She has worked on spatial statistical analysis of railroad accidents. She was an intern statistian in Covance Inc in 2014. Xiaoxi is currently a data scientist at Optimal Strategix Group.",
     "avatar": "xiaoxima.jpg",
     "publication": [],
-    "honor": []
+    "honor": [],
+    "alumni": true
   },
   {
-    "name": "Yubo Qin (former member)",
+    "name": "Yubo Qin",
     "intro": "Yubo is a M.S. student in the Department of Electrical and Computer Engineering at Rutgers University. He was instrumental in development of several railroad computer tools since 2014. He received his BS in Automation from University of Electronic Science and Technology of China.",
     "avatar": "yuboqin.jpg",
     "publication": [],
-    "honor": []
+    "honor": [],
+    "alumni": true
   },
   {
-    "name": "Xiangyi (Meredith) Guo (former member)",
-    "intro": "Meredith recently received her M.S. in Statistics from Rutgers University. She participated in studies related to railroad safety and risk analysis. In addition to a M.S. in Statistics, she also has a M.S. degree in Cell and Developmental Biology from Rutgers University.",
+    "name": "Xiangyi (Meredith) Guo",
+    "intro": "Meredith recently received her M.S. in Statistics from Rutgers University. She participated in studies related to railroad safety and risk analysis. In addition to a M.S. in Statistics, she also has a M.S. degree in Cell and Developmental Biology from Rutgers University. <br> Xiangyi is currently a Research Analyst at Quantcast.",
     "avatar": "xiangyiguo.jpg",
     "publication": [],
-    "honor": []
+    "honor": [],
+    "alumni": true
   }
 ]

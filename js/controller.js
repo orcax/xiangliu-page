@@ -13,6 +13,17 @@ myControllers.controller('HomeCtrl', ['$scope', '$http',
     $http.get('data/interest.json').success(function(data) {
       $scope.interests = data;
     });
+    $http.get('data/honor.json').success(function(data) {
+      $scope.honors = data;
+    });
+  }
+]);
+
+myControllers.controller('NewsCtrl', ['$scope', '$http',
+  function($scope, $http) {
+    $http.get('data/event.json').success(function(data) {
+      $scope.events = data;
+    });
   }
 ]);
 
@@ -51,9 +62,7 @@ myControllers.controller('StudentCtrl', ['$scope', '$http',
     $http.get('data/member.json').success(function(data) {
       $scope.members = data;
     });
-    $http.get('data/event.json').success(function(data) {
-      $scope.events = data;
-    });
+    
   }
 ]);
 

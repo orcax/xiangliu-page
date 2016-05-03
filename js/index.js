@@ -10,6 +10,10 @@ myApp.config(['$routeProvider',
         templateUrl: 'pages/home.html',
         controller: 'HomeCtrl'
       }).
+	  when('/news', {
+        templateUrl: 'pages/news.html',
+        controller: 'NewsCtrl'
+      }).
       when('/publication', {
         templateUrl: 'pages/publication.html',
         controller: 'PublicationCtrl'

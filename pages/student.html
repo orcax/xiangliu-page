@@ -1,31 +1,41 @@
 <div class="row">
-  <div class="col-md-8">
-    <h1 class="title-first">Group Members</h1>
-    <div class="row vspace-1" ng-repeat="m in members">
-      <div class="col-md-3">
-        <img ng-src="img/{{m.avatar}}" class="img-responsive vspace-3 border-1" alt="{{m.name}}">
+  <div class="col-md-12">
+    <h1 class="title-first">Current Students</h1>
+    <div class="row vspace-1" ng-repeat="m in members" ng-if="!m.alumni">
+      <div class="col-md-2">
+        <img ng-src="img/{{m.avatar}}" class="img-responsive vspace-3 border-1 stretch" alt="{{m.name}}">
       </div>
-      <div class="col-md-9">
+      <div class="col-md-10">
         <p class="font-style-2">{{m.name}}</p>
-        <p>{{m.intro}}</p>
+        <p ng-bind-html="m.intro"></p>
         <p ng-if="m.publication.length > 0">Publication:</p>
         <p ng-repeat="p in m.publication">
-          {{p.author}}
-          <a href="files/{{p.link}}" ng-if="p.link.length > 0">{{p.title}}</a>
-          <span class="link-color" ng-if="p.link.length <= 0">{{p.title}}</span>
-          {{p.source}}
+          {{p.author}} <a href="files/{{p.link}}">{{p.title}}</a> {{p.source}}
         </p>
         <p ng-if="m.honor.length > 0">Award/Honor:</p>
         <p ng-repeat="h in m.honor">{{h}}</p>
       </div>
     </div>
   </div>
-  <div class="col-md-4">
-    <h1 class="title-first">Events</h1>
-    <div class="vspace-1" ng-repeat="e in events">
-      <p class="font-style-2">{{e.title}}</p>
-      <img ng-src="img/{{e.figure}}" class="img-responsive" ng-if="e.figure.length > 0">
-      <p>{{e.content}}</p>
+</div>
+
+<div class="row">
+  <div class="col-md-12">
+    <h1 class="title-first">Alumni</h1>
+    <div class="row vspace-1" ng-repeat="m in members" ng-if="m.alumni">
+      <div class="col-md-2">
+        <img ng-src="img/{{m.avatar}}" class="img-responsive vspace-3 border-1 stretch" alt="{{m.name}}">
+      </div>
+      <div class="col-md-10">
+        <p class="font-style-2">{{m.name}}</p>
+        <p ng-bind-html="m.intro"></p>
+        <p ng-if="m.publication.length > 0">Publication:</p>
+        <p ng-repeat="p in m.publication">
+          {{p.author}} <a href="files/{{p.link}}">{{p.title}}</a> {{p.source}}
+        </p>
+        <p ng-if="m.honor.length > 0">Award/Honor:</p>
+        <p ng-repeat="h in m.honor">{{h}}</p>
+      </div>
     </div>
   </div>
 </div>
